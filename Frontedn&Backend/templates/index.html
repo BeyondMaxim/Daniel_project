@@ -1,0 +1,445 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf Club Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f0f0f0;
+        }
+        
+        
+    </style>
+
+</head>
+<body>
+    <h1 align = center>Golf Club Search</h1>
+    <form align = center id="main_filter_form" action="/filter_main" method="POST">
+        <label for="date">Select Date:</label>
+        <input type="text" id="date" name="date" class="flatpickr" placeholder="Select Date">
+
+        <label for="main_filter">Select Filter Kind:</label>
+        <select id="main_filter" name="main_filter">
+            <option value="">Select Filter Kind</option>
+            <option value="course_name">Course_Name</option>
+            <option value="state">State</option>
+            <option value="suburb">Suburb</option>
+            <option value="postal_code">Postal_code</option>
+        </select>
+
+        <label for="main_filter_input">Type a text:</label>
+        <input type="text" id="main_filter_input" name="main_filter_input">
+
+        <button type="submit">Search</button>
+    </form>
+    
+    <div id = "golf-club-show">
+        <div align= center id = "sub-filter"  style="display: none;">
+            <label for="start_time">Start Time:</label>
+            <input type="time" id="start_time" name="start_time" value="05:00" >
+            <label for="end_time">End Time:</label>
+            <input type="time" id="end_time" name="end_time" >
+    
+            <label for="start_price">Price From:</label>
+            <input type="text" id="start_price" name="start_price" >
+            <label for="end_price">To:</label>
+            <input type="text" id="end_price" name="end_price" >
+    
+            <label for="filter_golfers">Golfers</label>
+            <select id="filter_golfers" name="filter_golfers">
+                <option value="">Any</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+    
+            <label for="filter_hole_type">Hole_Type</label>
+            <select id="filter_hole_type" name="filter_hole_type">
+                <option value="">Any</option>
+                <option value="9">9</option>
+                <option value="18">18</option>
+            </select>
+            
+        </div>
+        <table id="golf-clubs-table">
+            <thead>
+                <tr>
+                    <th>Club Name</th>
+                    <th>Course_Name</th>
+                    <th>Address</th>
+                    <th>Country</th>
+                    <th>State</th>
+                    <th>Suburb</th>
+                    <th>Postcode</th>
+                    <th>Latitude</th>
+                    <th>Longitude</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Golf_Cart</th>
+                    <th>Club_Hire</th>
+                    <th>Platform</th>
+                    <th>Booking_Link</th>
+                    <th>9_Holes</th>
+                    <th>18_Holes</th>
+                </tr>
+            </thead>
+            <tbody id="golf-clubs-tbody">
+            </tbody>
+            <div align =  center id = "search-no-result-div" style="display:none;">
+                <label id = "serch-no-result" style="color:red;" >There is no result for filtering about the filter condition. Try again for filtering</label>
+            </div>
+        </table>
+    </div>
+    <div id = "hole-show" style ="display : none" align = center>
+        <h2 id = "title-club-name" align = center>XXX Golf Club </h2>
+        <table id="hole-show-table">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Hole Name</th>
+                    <th>Available Golfers</th>
+                    <th>Price</th>
+                    
+                </tr>
+            </thead>
+            <tbody id="hole-show-table-tbody">
+            </tbody>
+        </table>
+        <button id="back-button">Back</button>
+    </div>
+
+    <script>
+        flatpickr(".flatpickr", {
+            dateFormat: "Y-m-d",
+        });
+
+        
+
+        async function fetchGolfClubs() {
+            try {
+                const response = await fetch('/api/golf-clubs');
+                const data = await response.json();
+                const tableBody = document.getElementById('golf-clubs-tbody');
+                tableBody.innerHTML = '';
+                if (!data || data.length === 0) {
+                    document.getElementById("search-no-result-div").style.display = "block";
+                } else {
+                    document.getElementById("search-no-result-div").style.display = "none";
+                    data.forEach((golfClub) => {
+                        const row = tableBody.insertRow();
+                        row.setAttribute('id', `row-${golfClub.club_id}`);
+                        row.insertCell().textContent = golfClub.club_name;
+                        row.insertCell().textContent = golfClub.course_name;
+                        row.insertCell().textContent = golfClub.address;
+                        row.insertCell().textContent = golfClub.country;
+                        row.insertCell().textContent = golfClub.state;
+                        row.insertCell().textContent = golfClub.suburb;
+                        row.insertCell().textContent = golfClub.postcode;
+                        row.insertCell().textContent = golfClub.latitude;
+                        row.insertCell().textContent = golfClub.longitude;
+                        row.insertCell().textContent = golfClub.phone;
+                        row.insertCell().textContent = golfClub.email;
+                        row.insertCell().textContent = golfClub.golf_cart;
+                        row.insertCell().textContent = golfClub.club_hire;
+                        row.insertCell().textContent = golfClub.platform;
+                        row.insertCell().textContent = golfClub.booking_link;
+                        row.insertCell().textContent = golfClub['9_holes'];
+                        row.insertCell().textContent = golfClub['18_holes'];
+
+
+                    });
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        // Get the elements
+        const filterHoleTypeSelect = document.getElementById('filter_hole_type');
+        const filterGolfersSelect = document.getElementById('filter_golfers');
+        const startPriceInput = document.getElementById('start_price');
+        const endPriceInput = document.getElementById('end_price');
+        const golfClubTableTbody = document.getElementById('golf-clubs-tbody');
+        const startTimeInput = document.getElementById('start_time');
+        const endTimeInput = document.getElementById('end_time');
+        const mainfilterKind_input = document.getElementById('main_filter');
+        const mainfiltertext_input = document.getElementById('main_filter_input');
+
+        const form = document.getElementById('main_filter_form');
+        const dateInput = document.getElementById('date');
+
+        async function set_initial_input() {
+            try {
+
+                let datevalue = dateInput.value;
+                let trIds = [];
+                // Get the IDs of all tr elements in the tbody
+                if (golfClubTableTbody) {
+                    golfClubTableTbody.querySelectorAll('tr').forEach((tr) => {
+                        trIds.push(tr.id);
+                    });
+                } else {
+                    console.error('The golfClubTableTbody element does not exist');
+                }
+
+                let params = {
+                    date: datevalue,
+                    trIds: trIds
+                };
+            
+                let query = Object.keys(params)
+                    .map(key => `${key}=${params[key]}`)
+                    .join('&');
+            
+                
+                const response = await fetch(`/api/initial_input_set?${query}`);
+                const data = await response.json();
+                console.log(trIds);
+                startPriceInput.value = data["min_price"];
+                endPriceInput.value = data["max_price"];
+                console.log(typeof data["max_time"]);
+                startPriceInput.value = data["min_price"];
+                endPriceInput.value = data["max_price"];
+                startTimeInput.value = data['min_time'];
+                endTimeInput.value = data['max_time']
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+
+        async function main() {
+            await fetchGolfClubs();
+            //await set_initial_input();
+        }
+        
+        main();
+
+        // Define the function
+        function handleFilterChange() {
+            
+            // Get the values
+            let datevalue = dateInput.value;
+            let filterHoleTypeValue = filterHoleTypeSelect.value;
+            let filterGolfersValue = filterGolfersSelect.value;
+            let startPriceValue = startPriceInput.value;
+            let endPriceValue = endPriceInput.value;
+            let startTimeValue = startTimeInput.value;
+            let endTimeValue = endTimeInput.value;
+            let trIds = [];
+            let filterKind = mainfilterKind_input.value;
+            let filterText = mainfiltertext_input .value;
+            
+            // Get the IDs of all tr elements in the tbody
+            if (golfClubTableTbody) {
+                golfClubTableTbody.querySelectorAll('tr').forEach((tr) => {
+                    trIds.push(tr.id);
+                });
+            } else {
+                console.error('The golfClubTableTbody element does not exist');
+            }
+            // Send the values to the API
+            const url = '/filter_more';
+            let params = {
+                date: datevalue,
+                filterHoleType: filterHoleTypeValue,
+                filterGolfers: filterGolfersValue,
+                startPrice: startPriceValue,
+                endPrice: endPriceValue,
+                startTimeValue: startTimeValue,
+                endTimeValue: endTimeValue,
+                trIds: trIds,
+                filterKind : filterKind,
+                filterText : filterText
+            };
+        
+            let query = Object.keys(params)
+                .map(key => `${key}=${params[key]}`)
+                .join('&');
+        
+            fetch(`${url}?${query}`)
+                .then((response) => response.json())
+                .then((data) => {
+                    const tableBody = document.getElementById('golf-clubs-tbody');
+                    tableBody.innerHTML = '';
+                    if (!data || data.length === 0) {
+                        document.getElementById("search-no-result-div").style.display = "block";
+                    } else {
+                        document.getElementById("search-no-result-div").style.display = "none";
+                        data.forEach((golfClub) => {
+                            const row = tableBody.insertRow();
+                            row.setAttribute('id', `row-${golfClub.club_id}`);
+                            row.insertCell().textContent = golfClub.club_name;
+                            row.insertCell().textContent = golfClub.course_name;
+                            row.insertCell().textContent = golfClub.address;
+                            row.insertCell().textContent = golfClub.country;
+                            row.insertCell().textContent = golfClub.state;
+                            row.insertCell().textContent = golfClub.suburb;
+                            row.insertCell().textContent = golfClub.postcode;
+                            row.insertCell().textContent = golfClub.latitude;
+                            row.insertCell().textContent = golfClub.longitude;
+                            row.insertCell().textContent = golfClub.phone;
+                            row.insertCell().textContent = golfClub.email;
+                            row.insertCell().textContent = golfClub.golf_cart;
+                            row.insertCell().textContent = golfClub.club_hire;
+                            row.insertCell().textContent = golfClub.platform;
+                            row.insertCell().textContent = golfClub.booking_link;
+                            row.insertCell().textContent = golfClub['9_holes'];
+                            row.insertCell().textContent = golfClub['18_holes'];
+                            row.addEventListener('click', () => {
+                                const rowId = row.getAttribute('id').split('-')[1];
+                                fetchGolfClubDetails(rowId);
+                            });
+                        });
+                    }
+                    //set_initial_input();
+                })
+
+                .catch((error) => {
+                    console.error(error);
+                });
+        }
+        
+
+        async function fetchGolfClubDetails(rowId) {
+            try {
+                console.log(rowId)
+                document.getElementById("golf-club-show").style.display = "none";
+                document.getElementById("hole-show").style.display = "block";
+                document.getElementById("title-club-name").value = rowId;
+                
+                let datevalue = dateInput.value;
+                let filterHoleTypeValue = filterHoleTypeSelect.value;
+                let filterGolfersValue = filterGolfersSelect.value;
+                let startPriceValue = startPriceInput.value;
+                let endPriceValue = endPriceInput.value;
+                let startTimeValue = startTimeInput.value;
+                let endTimeValue = endTimeInput.value;
+                const url = '/api/filter_hole';
+                let params = {
+                    date: datevalue,
+                    filterHoleType: filterHoleTypeValue,
+                    filterGolfers: filterGolfersValue,
+                    startPrice: startPriceValue,
+                    endPrice: endPriceValue,
+                    startTimeValue: startTimeValue,
+                    endTimeValue: endTimeValue,
+                    rowId: rowId
+                };
+            
+                let query = Object.keys(params)
+                    .map(key => `${key}=${params[key]}`)
+                    .join('&');
+            
+                fetch(`${url}?${query}`)
+                    .then((response) => response.json())
+                    .then((data) => {
+                        let club_name = data['club_name']
+                        document.getElementById("title-club-name").textContent = club_name;
+                        let hole_data = data['result']
+                        // Handle the response
+                        const tableBody = document.getElementById('hole-show-table-tbody');
+                        tableBody.innerHTML = '';
+                        console.log(data);
+                        data1 = data['result']
+                        data1.forEach((golfhole) => {
+                            const row = tableBody.insertRow();
+                            row.insertCell().textContent = golfhole.time;
+                            row.insertCell().textContent = golfhole.hole_name;
+                            row.insertCell().textContent = golfhole.available_golfers;
+                            row.insertCell().textContent = golfhole.price;
+                        });
+                    })
+                    .catch((error) => {
+                        console.error(error);
+                    });
+                
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        }
+        document.getElementById('back-button').addEventListener('click', () => {
+            document.getElementById("golf-club-show").style.display = "block";
+            document.getElementById("hole-show").style.display = "none";
+        });
+        // Add the event listener
+        filterHoleTypeSelect.addEventListener('change', handleFilterChange);
+        filterGolfersSelect.addEventListener('change', handleFilterChange);
+        startPriceInput.addEventListener('change', handleFilterChange);
+        endPriceInput.addEventListener('change', handleFilterChange);
+        startTimeInput.addEventListener('change', handleFilterChange);
+        endTimeInput.addEventListener('change', handleFilterChange);
+
+        function handleFormSubmit(e)  {
+            e.preventDefault();
+            
+            if (dateInput.value === '') {
+                alert('Please select a date');
+            } else {
+                document.getElementById("golf-club-show").style.display = "block";
+                document.getElementById("hole-show").style.display = "none";
+                document.getElementById("sub-filter").style.display = "block";
+                const filterKind = document.getElementById('main_filter').value;
+                const filterText = document.getElementById('main_filter_input').value;
+                const formData = new FormData(form);
+            
+                fetch('/filter_main', {
+                    method: 'POST',
+                    body: formData,
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        const tableBody = document.getElementById('golf-clubs-tbody');
+                        tableBody.innerHTML = '';
+                        if (!data || data.length === 0) {
+                            document.getElementById("search-no-result-div").style.display = "block";
+                        } else {
+                            document.getElementById("search-no-result-div").style.display = "none";
+                            data.forEach((golfClub) => {
+                                const row = tableBody.insertRow();
+                                row.setAttribute('id', `row-${golfClub.club_id}`);
+                                row.insertCell().textContent = golfClub.club_name;
+                                row.insertCell().textContent = golfClub.course_name;
+                                row.insertCell().textContent = golfClub.address;
+                                row.insertCell().textContent = golfClub.country;
+                                row.insertCell().textContent = golfClub.state;
+                                row.insertCell().textContent = golfClub.suburb;
+                                row.insertCell().textContent = golfClub.postcode;
+                                row.insertCell().textContent = golfClub.latitude;
+                                row.insertCell().textContent = golfClub.longitude;
+                                row.insertCell().textContent = golfClub.phone;
+                                row.insertCell().textContent = golfClub.email;
+                                row.insertCell().textContent = golfClub.golf_cart;
+                                row.insertCell().textContent = golfClub.club_hire;
+                                row.insertCell().textContent = golfClub.platform;
+                                row.insertCell().textContent = golfClub.booking_link;
+                                row.insertCell().textContent = golfClub['9_holes'];
+                                row.insertCell().textContent = golfClub['18_holes'];
+
+                                row.addEventListener('click', () => {
+                                    const rowId = row.getAttribute('id').split('-')[1];
+                                    fetchGolfClubDetails(rowId);
+                                });
+                            });
+                        }
+                        set_initial_input();
+                    })
+                    .catch(error => console.error('Error:', error));
+            }
+        };
+        form.addEventListener('submit', handleFormSubmit);
+
+    </script>
+</body>
+</html>
