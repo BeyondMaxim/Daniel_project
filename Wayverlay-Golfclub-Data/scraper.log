@@ -1,0 +1,10 @@
+2024-05-23 09:36:23,829 - INFO - GolfClubScraper initialized with base_url: https://www.waverleygolfclub.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000 and course_url: https://www.waverleygolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000
+2024-05-23 09:36:23,830 - INFO - Scraping course data for all courses
+2024-05-23 09:36:25,789 - INFO - Getting course status for course: Endeavour Hills - 18 Holes (Churchill Park Site)
+2024-05-23 09:37:19,926 - INFO - Exporting course data to Excel for course: Endeavour Hills - 18 Holes (Churchill Park Site)
+2024-05-23 09:37:20,403 - INFO - Getting course status for course: Rowville - 18 Holes (Waverley Site)
+2024-05-23 09:38:09,094 - INFO - Exporting course data to Excel for course: Rowville - 18 Holes (Waverley Site)
+2024-05-23 09:38:09,221 - INFO - Getting course status for course: Endeavour Hills - 9 Holes (Churchill Park Site)
+2024-05-23 09:38:27,079 - INFO - Exporting course data to Excel for course: Endeavour Hills - 9 Holes (Churchill Park Site)
+2024-05-23 09:38:27,164 - INFO - Getting course status for course: Rowville - 9 Holes (Waverley Site)
+2024-05-23 09:39:03,427 - INFO - Exporting course data to Excel for course: Rowville - 9 Holes (Waverley Site)

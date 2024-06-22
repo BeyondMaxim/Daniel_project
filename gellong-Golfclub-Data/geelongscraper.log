@@ -1,0 +1,8 @@
+2024-05-23 09:34:52,810 - INFO - geelongGolfclubScraper initialized with base_url: https://geelong.miclub.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000 and course_url: https://geelong.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000
+2024-05-23 09:34:52,810 - INFO - Scraping course data for all courses
+2024-05-23 09:35:31,002 - INFO - Getting course status for course: 9 Holes
+2024-05-23 09:35:47,324 - INFO - Exporting course data to Excel for course: 9 Holes
+2024-05-23 09:35:47,762 - INFO - Getting course status for course: 9H & Small Bucket of Balls
+2024-05-23 09:35:58,613 - INFO - Exporting course data to Excel for course: 9H & Small Bucket of Balls
+2024-05-23 09:35:58,707 - INFO - Getting course status for course: 9H & Sporte Leisure Geelong Logo Hat
+2024-05-23 09:36:15,699 - INFO - Exporting course data to Excel for course: 9H & Sporte Leisure Geelong Logo Hat

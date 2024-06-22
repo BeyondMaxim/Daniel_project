@@ -1,0 +1,425 @@
+2024-05-28 23:05:52,811 - INFO - Number of search tees found: 5
+2024-05-28 23:05:52,932 - INFO - Number of date options found: 10
+2024-05-28 23:05:52,932 - INFO - Extracting Green Fees for course: https://brightongolfcourse.com.au/fees/
+2024-05-28 23:05:53,160 - INFO - Scraping data for date: 2024-05-29
+2024-05-28 23:05:55,201 - INFO - Scraping data for start tee: Start Tee 1
+2024-05-28 23:05:57,281 - INFO - Number of hole options found: 2
+2024-05-28 23:05:57,286 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-05-28 23:06:03,058 - INFO - Number of search results found: 92
+2024-05-28 23:06:03,150 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-05-28 23:06:06,362 - INFO - Number of search results found: 92
+2024-05-28 23:06:06,466 - INFO - Scraping data for start tee: Start Tee 10
+2024-05-28 23:06:08,551 - INFO - Number of hole options found: 2
+2024-05-28 23:06:08,555 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-05-28 23:06:13,268 - INFO - Number of search results found: 6
+2024-05-28 23:06:13,348 - INFO - Scraping data for date: 2024-05-30
+2024-05-28 23:06:15,401 - INFO - Scraping data for start tee: Start Tee 1
+2024-05-28 23:06:17,487 - INFO - Number of hole options found: 2
+2024-05-28 23:06:17,491 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-05-28 23:06:23,267 - INFO - Number of search results found: 92
+2024-05-28 23:06:23,344 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-05-28 23:06:26,547 - INFO - Number of search results found: 92
+2024-05-28 23:06:26,672 - INFO - Scraping data for start tee: Start Tee 10
+2024-05-28 23:06:28,743 - INFO - Number of hole options found: 2
+2024-05-28 23:06:28,747 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-05-28 23:06:33,983 - INFO - Number of search results found: 6
+2024-05-28 23:06:34,068 - INFO - Scraping data for date: 2024-05-31
+2024-05-28 23:06:36,121 - INFO - Scraping data for start tee: Start Tee 1
+2024-05-28 23:06:38,199 - INFO - Number of hole options found: 2
+2024-05-28 23:06:38,203 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-05-28 23:06:43,970 - INFO - Number of search results found: 92
+2024-05-28 23:06:44,048 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-05-28 23:06:47,233 - INFO - Number of search results found: 92
+2024-05-28 23:06:47,333 - INFO - Scraping data for start tee: Start Tee 10
+2024-05-28 23:06:49,414 - INFO - Number of hole options found: 2
+2024-05-28 23:06:49,418 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-05-28 23:06:55,180 - INFO - Number of search results found: 6
+2024-05-28 23:06:55,288 - INFO - Scraping data for date: 2024-06-01
+2024-05-28 23:06:57,329 - INFO - Scraping data for start tee: Start Tee 1
+2024-05-28 23:06:59,405 - INFO - Number of hole options found: 2
+2024-05-28 23:06:59,410 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-05-28 23:07:07,760 - INFO - Number of search results found: 92
+2024-05-28 23:07:07,838 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-05-28 23:07:11,025 - INFO - Number of search results found: 92
+2024-05-28 23:07:11,125 - INFO - Scraping data for start tee: Start Tee 10
+2024-05-28 23:07:13,187 - INFO - Number of hole options found: 2
+2024-05-28 23:07:13,191 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-05-28 23:07:18,420 - INFO - Number of search results found: 6
+2024-05-28 23:07:18,499 - INFO - Scraping data for date: 2024-06-02
+2024-05-28 23:07:20,557 - INFO - Scraping data for start tee: Start Tee 1
+2024-05-28 23:07:22,641 - INFO - Number of hole options found: 2
+2024-05-28 23:07:22,645 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-05-28 23:07:28,424 - INFO - Number of search results found: 92
+2024-05-28 23:07:28,508 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-05-28 23:07:31,698 - INFO - Number of search results found: 92
+2024-05-28 23:07:31,801 - INFO - Scraping data for start tee: Start Tee 10
+2024-05-28 23:07:33,881 - INFO - Number of hole options found: 2
+2024-05-28 23:07:33,886 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-05-28 23:07:39,092 - INFO - Number of search results found: 6
+2024-05-28 23:07:39,169 - INFO - Reached the maximum number of dates to scrape, stopping the process
+2024-05-28 23:07:39,169 - INFO - Exporting course data to Excel for course: bightonGolfClup
+2024-05-29 05:22:48,507 - INFO - Number of search tees found: 5
+2024-05-29 05:22:48,633 - INFO - Number of date options found: 10
+2024-05-29 05:22:48,633 - INFO - Extracting Green Fees for course: https://brightongolfcourse.com.au/fees/
+2024-05-29 05:22:48,999 - INFO - Scraping data for date: 2024-05-29
+2024-05-29 05:22:51,043 - INFO - Scraping data for start tee: Start Tee 1
+2024-05-29 05:22:53,121 - INFO - Number of hole options found: 2
+2024-05-29 05:22:53,125 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-05-29 05:22:55,803 - INFO - Number of search results found: 68
+2024-05-29 05:22:55,870 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-05-29 05:22:58,541 - INFO - Number of search results found: 68
+2024-05-29 05:22:58,643 - INFO - Scraping data for start tee: Start Tee 10
+2024-05-29 05:23:00,700 - INFO - Number of hole options found: 2
+2024-05-29 05:23:00,704 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-05-29 05:23:13,123 - INFO - Scraping data for slot tee: Start Tee 10-18 Hole
+2024-05-29 05:23:25,586 - INFO - Scraping data for date: 2024-05-30
+2024-05-29 05:23:27,633 - INFO - Scraping data for start tee: Start Tee 1
+2024-05-29 05:23:29,712 - INFO - Number of hole options found: 2
+2024-05-29 05:23:29,717 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-05-29 05:23:32,414 - INFO - Number of search results found: 92
+2024-05-29 05:23:32,490 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-05-29 05:23:35,165 - INFO - Number of search results found: 92
+2024-05-29 05:23:35,268 - INFO - Scraping data for start tee: Start Tee 10
+2024-05-29 05:23:37,339 - INFO - Number of hole options found: 2
+2024-05-29 05:23:37,343 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-05-29 05:23:42,031 - INFO - Number of search results found: 6
+2024-05-29 05:23:42,111 - INFO - Scraping data for date: 2024-05-31
+2024-05-29 05:23:44,155 - INFO - Scraping data for start tee: Start Tee 1
+2024-05-29 05:23:46,213 - INFO - Number of hole options found: 2
+2024-05-29 05:23:46,218 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-05-29 05:23:51,507 - INFO - Number of search results found: 92
+2024-05-29 05:23:51,583 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-05-29 05:23:54,296 - INFO - Number of search results found: 92
+2024-05-29 05:23:54,413 - INFO - Scraping data for start tee: Start Tee 10
+2024-05-29 05:23:56,479 - INFO - Number of hole options found: 2
+2024-05-29 05:23:56,483 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-05-29 05:24:01,188 - INFO - Number of search results found: 6
+2024-05-29 05:24:01,268 - INFO - Scraping data for date: 2024-06-01
+2024-05-29 05:24:03,314 - INFO - Scraping data for start tee: Start Tee 1
+2024-05-29 05:24:05,384 - INFO - Number of hole options found: 2
+2024-05-29 05:24:05,388 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-05-29 05:24:10,624 - INFO - Number of search results found: 92
+2024-05-29 05:24:10,720 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-05-29 05:24:13,397 - INFO - Number of search results found: 92
+2024-05-29 05:24:13,497 - INFO - Scraping data for start tee: Start Tee 10
+2024-05-29 05:24:15,571 - INFO - Number of hole options found: 2
+2024-05-29 05:24:15,575 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-05-29 05:24:20,293 - INFO - Number of search results found: 6
+2024-05-29 05:24:20,372 - INFO - Scraping data for date: 2024-06-02
+2024-05-29 05:24:22,408 - INFO - Scraping data for start tee: Start Tee 1
+2024-05-29 05:24:24,482 - INFO - Number of hole options found: 2
+2024-05-29 05:24:24,487 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-05-29 05:24:29,752 - INFO - Number of search results found: 92
+2024-05-29 05:24:29,830 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-05-29 05:24:32,511 - INFO - Number of search results found: 92
+2024-05-29 05:24:32,613 - INFO - Scraping data for start tee: Start Tee 10
+2024-05-29 05:24:34,697 - INFO - Number of hole options found: 2
+2024-05-29 05:24:34,701 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-05-29 05:24:39,400 - INFO - Number of search results found: 6
+2024-05-29 05:24:39,477 - INFO - Reached the maximum number of dates to scrape, stopping the process
+2024-05-29 05:24:39,477 - INFO - Exporting course data to Excel for course: bightonGolfClup
+2024-06-10 14:38:29,282 - INFO - Number of search tees found: 5
+2024-06-10 14:38:29,358 - INFO - Number of date options found: 10
+2024-06-10 14:38:29,359 - INFO - Extracting Green Fees for course: https://brightongolfcourse.com.au/fees/
+2024-06-10 14:38:30,352 - INFO - Scraping data for date: 2024-06-10
+2024-06-10 14:38:32,401 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-10 14:38:34,456 - INFO - Number of hole options found: 2
+2024-06-10 14:38:34,460 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-10 14:38:46,851 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-10 14:38:59,304 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-10 14:39:01,361 - INFO - Number of hole options found: 2
+2024-06-10 14:39:01,366 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-10 14:39:13,769 - INFO - Scraping data for slot tee: Start Tee 10-18 Hole
+2024-06-10 14:39:26,214 - INFO - Scraping data for date: 2024-06-11
+2024-06-10 14:39:28,270 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-10 14:39:30,383 - INFO - Number of hole options found: 2
+2024-06-10 14:39:30,388 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-10 14:39:36,162 - INFO - Number of search results found: 92
+2024-06-10 14:39:36,870 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-10 14:39:40,069 - INFO - Number of search results found: 92
+2024-06-10 14:39:40,424 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-10 14:39:42,482 - INFO - Number of hole options found: 2
+2024-06-10 14:39:42,488 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-10 14:39:47,185 - INFO - Number of search results found: 10
+2024-06-10 14:39:47,283 - INFO - Scraping data for date: 2024-06-12
+2024-06-10 14:39:49,333 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-10 14:39:51,414 - INFO - Number of hole options found: 2
+2024-06-10 14:39:51,418 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-10 14:39:57,163 - INFO - Number of search results found: 92
+2024-06-10 14:39:57,330 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-10 14:40:00,525 - INFO - Number of search results found: 92
+2024-06-10 14:40:00,898 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-10 14:40:02,971 - INFO - Number of hole options found: 2
+2024-06-10 14:40:02,974 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-10 14:40:08,199 - INFO - Number of search results found: 10
+2024-06-10 14:40:08,296 - INFO - Scraping data for date: 2024-06-13
+2024-06-10 14:40:10,339 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-10 14:40:12,411 - INFO - Number of hole options found: 2
+2024-06-10 14:40:12,416 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-10 14:40:18,149 - INFO - Number of search results found: 92
+2024-06-10 14:40:18,313 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-10 14:40:21,543 - INFO - Number of search results found: 92
+2024-06-10 14:40:21,897 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-10 14:40:23,992 - INFO - Number of hole options found: 2
+2024-06-10 14:40:23,997 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-10 14:40:28,744 - INFO - Number of search results found: 10
+2024-06-10 14:40:28,844 - INFO - Scraping data for date: 2024-06-14
+2024-06-10 14:40:30,902 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-10 14:40:32,984 - INFO - Number of hole options found: 2
+2024-06-10 14:40:32,988 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-10 14:40:38,747 - INFO - Number of search results found: 92
+2024-06-10 14:40:38,911 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-10 14:40:42,069 - INFO - Number of search results found: 92
+2024-06-10 14:40:42,453 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-10 14:40:44,519 - INFO - Number of hole options found: 2
+2024-06-10 14:40:44,522 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-10 14:40:49,738 - INFO - Number of search results found: 10
+2024-06-10 14:40:49,831 - INFO - Reached the maximum number of dates to scrape, stopping the process
+2024-06-10 14:40:49,831 - INFO - Exporting course data to Excel for course: bightonGolfClup
+2024-06-10 14:58:36,656 - INFO - Number of search tees found: 5
+2024-06-10 14:58:36,730 - INFO - Number of date options found: 10
+2024-06-10 14:58:36,730 - INFO - Extracting Green Fees for course: https://brightongolfcourse.com.au/fees/
+2024-06-10 14:58:36,891 - INFO - Scraping data for date: 2024-06-10
+2024-06-10 14:58:38,929 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-10 14:58:41,007 - INFO - Number of hole options found: 2
+2024-06-10 14:58:41,011 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-16 01:02:11,705 - INFO - Number of search tees found: 5
+2024-06-16 01:02:11,785 - INFO - Number of date options found: 10
+2024-06-16 01:02:11,785 - INFO - Extracting Green Fees for course: https://brightongolfcourse.com.au/fees/
+2024-06-16 01:02:12,795 - INFO - Scraping data for date: 2024-06-16
+2024-06-16 01:02:14,831 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-16 01:02:16,886 - INFO - Number of hole options found: 2
+2024-06-16 01:02:16,890 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-16 01:02:22,118 - INFO - Number of search results found: 92
+2024-06-16 01:02:22,332 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-16 01:02:24,998 - INFO - Number of search results found: 92
+2024-06-16 01:02:25,407 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-16 01:02:27,491 - INFO - Number of hole options found: 2
+2024-06-16 01:02:27,495 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-16 01:02:32,193 - INFO - Number of search results found: 10
+2024-06-16 01:02:32,308 - INFO - Scraping data for date: 2024-06-17
+2024-06-16 01:02:34,358 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-16 01:02:36,420 - INFO - Number of hole options found: 2
+2024-06-16 01:02:36,424 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-16 01:02:41,675 - INFO - Number of search results found: 92
+2024-06-16 01:02:41,852 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-16 01:02:44,519 - INFO - Number of search results found: 92
+2024-06-16 01:02:44,908 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-16 01:02:46,994 - INFO - Number of hole options found: 2
+2024-06-16 01:02:46,999 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-16 01:02:51,692 - INFO - Number of search results found: 10
+2024-06-16 01:02:51,792 - INFO - Scraping data for date: 2024-06-18
+2024-06-16 01:02:53,821 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-16 01:02:55,899 - INFO - Number of hole options found: 2
+2024-06-16 01:02:55,904 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-16 01:03:01,152 - INFO - Number of search results found: 92
+2024-06-16 01:03:01,314 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-16 01:03:03,984 - INFO - Number of search results found: 92
+2024-06-16 01:03:04,354 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-16 01:03:06,429 - INFO - Number of hole options found: 2
+2024-06-16 01:03:06,433 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-16 01:03:11,129 - INFO - Number of search results found: 10
+2024-06-16 01:03:11,259 - INFO - Scraping data for date: 2024-06-19
+2024-06-16 01:03:13,299 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-16 01:03:15,375 - INFO - Number of hole options found: 2
+2024-06-16 01:03:15,380 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-16 01:03:20,629 - INFO - Number of search results found: 92
+2024-06-16 01:03:20,795 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-16 01:03:23,470 - INFO - Number of search results found: 92
+2024-06-16 01:03:23,820 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-16 01:03:25,895 - INFO - Number of hole options found: 2
+2024-06-16 01:03:25,900 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-16 01:03:30,592 - INFO - Number of search results found: 10
+2024-06-16 01:03:30,694 - INFO - Scraping data for date: 2024-06-20
+2024-06-16 01:03:32,752 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-16 01:03:34,833 - INFO - Number of hole options found: 2
+2024-06-16 01:03:34,837 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-16 01:03:40,189 - INFO - Number of search results found: 92
+2024-06-16 01:03:40,353 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-16 01:03:43,078 - INFO - Number of search results found: 92
+2024-06-16 01:03:43,465 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-16 01:03:45,544 - INFO - Number of hole options found: 2
+2024-06-16 01:03:45,548 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-16 01:03:50,237 - INFO - Number of search results found: 10
+2024-06-16 01:03:50,332 - INFO - Reached the maximum number of dates to scrape, stopping the process
+2024-06-16 01:03:50,332 - INFO - Exporting course data to Excel for course: bightonGolfClup
+2024-06-19 12:39:47,525 - INFO - Number of search tees found: 5
+2024-06-19 12:39:47,599 - INFO - Number of date options found: 10
+2024-06-19 12:39:47,600 - INFO - Extracting Green Fees for course: https://brightongolfcourse.com.au/fees/
+2024-06-19 12:39:49,039 - INFO - Scraping data for date: 2024-06-19
+2024-06-19 12:39:51,081 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-19 12:39:53,144 - INFO - Number of hole options found: 2
+2024-06-19 12:39:53,149 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-19 12:39:58,860 - INFO - Number of search results found: 13
+2024-06-19 12:39:58,903 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-19 12:40:02,077 - INFO - Number of search results found: 13
+2024-06-19 12:40:02,156 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-19 12:40:04,224 - INFO - Number of hole options found: 2
+2024-06-19 12:40:04,228 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-19 12:40:16,636 - INFO - Scraping data for slot tee: Start Tee 10-18 Hole
+2024-06-19 12:40:29,077 - INFO - Scraping data for date: 2024-06-20
+2024-06-19 12:40:31,122 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-19 12:40:33,193 - INFO - Number of hole options found: 2
+2024-06-19 12:40:33,196 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-19 12:40:38,990 - INFO - Number of search results found: 92
+2024-06-19 12:40:39,183 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-19 12:40:42,380 - INFO - Number of search results found: 92
+2024-06-19 12:40:42,746 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-19 12:40:44,817 - INFO - Number of hole options found: 2
+2024-06-19 12:40:44,822 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-19 12:40:49,528 - INFO - Number of search results found: 10
+2024-06-19 12:40:49,631 - INFO - Scraping data for date: 2024-06-21
+2024-06-19 12:40:51,678 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-19 12:40:53,761 - INFO - Number of hole options found: 2
+2024-06-19 12:40:53,765 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-19 12:40:59,529 - INFO - Number of search results found: 92
+2024-06-19 12:40:59,715 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-19 12:41:02,905 - INFO - Number of search results found: 92
+2024-06-19 12:41:03,248 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-19 12:41:05,330 - INFO - Number of hole options found: 2
+2024-06-19 12:41:05,336 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-19 12:41:10,575 - INFO - Number of search results found: 10
+2024-06-19 12:41:10,679 - INFO - Scraping data for date: 2024-06-22
+2024-06-19 12:41:12,734 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-19 12:41:14,806 - INFO - Number of hole options found: 2
+2024-06-19 12:41:14,810 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-19 12:41:20,581 - INFO - Number of search results found: 92
+2024-06-19 12:41:20,744 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-19 12:41:23,964 - INFO - Number of search results found: 92
+2024-06-19 12:41:24,324 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-19 12:41:26,414 - INFO - Number of hole options found: 2
+2024-06-19 12:41:26,418 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-19 12:41:31,123 - INFO - Number of search results found: 6
+2024-06-19 12:41:31,213 - INFO - Scraping data for date: 2024-06-23
+2024-06-19 12:41:33,258 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-19 12:41:35,328 - INFO - Number of hole options found: 2
+2024-06-19 12:41:35,332 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-19 12:41:41,102 - INFO - Number of search results found: 92
+2024-06-19 12:41:41,292 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-19 12:41:44,474 - INFO - Number of search results found: 92
+2024-06-19 12:41:44,849 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-19 12:41:46,925 - INFO - Number of hole options found: 2
+2024-06-19 12:41:46,929 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-19 12:41:51,611 - INFO - Number of search results found: 10
+2024-06-19 12:41:51,713 - INFO - Reached the maximum number of dates to scrape, stopping the process
+2024-06-19 12:41:51,713 - INFO - Exporting course data to Excel for course: bightonGolfClup
+2024-06-20 06:20:03,960 - INFO - Number of search tees found: 5
+2024-06-20 06:20:04,036 - INFO - Number of date options found: 7
+2024-06-20 06:20:04,036 - INFO - Extracting Green Fees for course: https://brightongolfcourse.com.au/fees/
+2024-06-20 06:20:04,254 - INFO - Scraping data for date: 2024-06-20
+2024-06-20 06:20:06,285 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-20 06:20:08,351 - INFO - Number of hole options found: 2
+2024-06-20 06:20:08,355 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-20 06:20:13,568 - INFO - Number of search results found: 60
+2024-06-20 06:20:13,667 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-20 06:20:16,326 - INFO - Number of search results found: 60
+2024-06-20 06:20:16,571 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-20 06:20:18,633 - INFO - Number of hole options found: 2
+2024-06-20 06:20:18,637 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-20 06:20:31,113 - INFO - Scraping data for slot tee: Start Tee 10-18 Hole
+2024-06-20 06:20:43,626 - INFO - Scraping data for date: 2024-06-21
+2024-06-20 06:20:45,675 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-20 06:20:47,750 - INFO - Number of hole options found: 2
+2024-06-20 06:20:47,754 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-20 06:20:52,997 - INFO - Number of search results found: 92
+2024-06-20 06:20:53,158 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-20 06:20:55,823 - INFO - Number of search results found: 92
+2024-06-20 06:20:56,207 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-20 06:20:58,280 - INFO - Number of hole options found: 2
+2024-06-20 06:20:58,286 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-20 06:21:02,988 - INFO - Number of search results found: 10
+2024-06-20 06:21:03,100 - INFO - Scraping data for date: 2024-06-22
+2024-06-20 06:21:05,135 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-20 06:21:07,190 - INFO - Number of hole options found: 2
+2024-06-20 06:21:07,194 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-20 06:21:12,992 - INFO - Number of search results found: 92
+2024-06-20 06:21:13,164 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-20 06:21:15,834 - INFO - Number of search results found: 92
+2024-06-20 06:21:16,199 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-20 06:21:18,274 - INFO - Number of hole options found: 2
+2024-06-20 06:21:18,278 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-20 06:21:22,967 - INFO - Number of search results found: 6
+2024-06-20 06:21:23,057 - INFO - Scraping data for date: 2024-06-23
+2024-06-20 06:21:25,105 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-20 06:21:27,175 - INFO - Number of hole options found: 2
+2024-06-20 06:21:27,180 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-20 06:21:32,413 - INFO - Number of search results found: 92
+2024-06-20 06:21:32,593 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-20 06:21:35,272 - INFO - Number of search results found: 92
+2024-06-20 06:21:35,638 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-20 06:21:37,724 - INFO - Number of hole options found: 2
+2024-06-20 06:21:37,728 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-20 06:21:42,412 - INFO - Number of search results found: 10
+2024-06-20 06:21:42,515 - INFO - Scraping data for date: 2024-06-24
+2024-06-20 06:21:44,560 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-20 06:21:46,631 - INFO - Number of hole options found: 2
+2024-06-20 06:21:46,635 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-20 06:21:51,882 - INFO - Number of search results found: 92
+2024-06-20 06:21:52,046 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-20 06:21:54,741 - INFO - Number of search results found: 92
+2024-06-20 06:21:55,087 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-20 06:21:57,157 - INFO - Number of hole options found: 2
+2024-06-20 06:21:57,162 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-20 06:22:01,936 - INFO - Number of search results found: 10
+2024-06-20 06:22:02,035 - INFO - Reached the maximum number of dates to scrape, stopping the process
+2024-06-20 06:22:02,035 - INFO - Exporting course data to Excel for course: bightonGolfClup
+2024-06-22 10:08:42,805 - INFO - Number of search tees found: 5
+2024-06-22 10:08:42,921 - INFO - Number of date options found: 10
+2024-06-22 10:08:42,921 - INFO - Extracting Green Fees for course: https://brightongolfcourse.com.au/fees/
+2024-06-22 10:08:43,617 - INFO - Scraping data for date: 2024-06-22
+2024-06-22 10:08:45,660 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-22 10:08:47,716 - INFO - Number of hole options found: 2
+2024-06-22 10:08:47,720 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-22 10:08:52,929 - INFO - Number of search results found: 32
+2024-06-22 10:08:52,992 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-22 10:08:55,629 - INFO - Number of search results found: 32
+2024-06-22 10:08:55,737 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-22 10:08:57,811 - INFO - Number of hole options found: 2
+2024-06-22 10:08:57,815 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-22 10:09:10,188 - INFO - Scraping data for slot tee: Start Tee 10-18 Hole
+2024-06-22 10:09:22,691 - INFO - Scraping data for date: 2024-06-23
+2024-06-22 10:09:24,750 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-22 10:09:26,837 - INFO - Number of hole options found: 2
+2024-06-22 10:09:26,840 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-22 10:09:32,140 - INFO - Number of search results found: 92
+2024-06-22 10:09:32,317 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-22 10:09:35,080 - INFO - Number of search results found: 92
+2024-06-22 10:09:35,445 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-22 10:09:37,561 - INFO - Number of hole options found: 2
+2024-06-22 10:09:37,566 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-22 10:09:42,274 - INFO - Number of search results found: 10
+2024-06-22 10:09:42,397 - INFO - Scraping data for date: 2024-06-24
+2024-06-22 10:09:44,434 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-22 10:09:46,513 - INFO - Number of hole options found: 2
+2024-06-22 10:09:46,517 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-22 10:09:51,803 - INFO - Number of search results found: 92
+2024-06-22 10:09:52,091 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-22 10:09:54,819 - INFO - Number of search results found: 92
+2024-06-22 10:09:55,376 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-22 10:09:57,480 - INFO - Number of hole options found: 2
+2024-06-22 10:09:57,485 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-22 10:10:02,248 - INFO - Number of search results found: 10
+2024-06-22 10:10:02,407 - INFO - Scraping data for date: 2024-06-25
+2024-06-22 10:10:04,464 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-22 10:10:06,540 - INFO - Number of hole options found: 2
+2024-06-22 10:10:06,543 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-22 10:10:12,392 - INFO - Number of search results found: 92
+2024-06-22 10:10:12,679 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-22 10:10:15,482 - INFO - Number of search results found: 92
+2024-06-22 10:10:16,043 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-22 10:10:18,123 - INFO - Number of hole options found: 2
+2024-06-22 10:10:18,130 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-22 10:10:22,857 - INFO - Number of search results found: 10
+2024-06-22 10:10:23,027 - INFO - Scraping data for date: 2024-06-26
+2024-06-22 10:10:25,080 - INFO - Scraping data for start tee: Start Tee 1
+2024-06-22 10:10:27,172 - INFO - Number of hole options found: 2
+2024-06-22 10:10:27,179 - INFO - Scraping data for slot tee: Start Tee 1-9 Hole
+2024-06-22 10:10:32,493 - INFO - Number of search results found: 92
+2024-06-22 10:10:32,777 - INFO - Scraping data for slot tee: Start Tee 1-18 Hole
+2024-06-22 10:10:35,528 - INFO - Number of search results found: 92
+2024-06-22 10:10:36,151 - INFO - Scraping data for start tee: Start Tee 10
+2024-06-22 10:10:38,267 - INFO - Number of hole options found: 2
+2024-06-22 10:10:38,273 - INFO - Scraping data for slot tee: Start Tee 10-9 Hole
+2024-06-22 10:10:43,007 - INFO - Number of search results found: 10
+2024-06-22 10:10:43,174 - INFO - Reached the maximum number of dates to scrape, stopping the process
+2024-06-22 10:10:43,175 - INFO - Exporting course data to Excel for course: bightonGolfClup

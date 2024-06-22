@@ -1,0 +1,40 @@
+2024-06-12 00:38:24,721 - INFO - GolfClubScraper initialized with base_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000 and course_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000
+2024-06-12 00:38:24,721 - INFO - Scraping course data for all courses
+2024-06-12 00:38:26,053 - INFO - Getting course status for course: 18 Holes
+2024-06-12 00:38:32,945 - INFO - Exporting course data to Excel for course: 18 Holes
+2024-06-12 00:38:33,269 - INFO - Getting course status for course: 9 Holes
+2024-06-12 00:38:44,715 - INFO - Exporting course data to Excel for course: 9 Holes
+2024-06-16 00:37:54,072 - INFO - GolfClubScraper initialized with base_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000 and course_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000
+2024-06-16 00:37:54,072 - INFO - Scraping course data for all courses
+2024-06-16 00:37:55,651 - INFO - Getting course status for course: 18 Holes
+2024-06-16 00:38:02,511 - INFO - Exporting course data to Excel for course: 18 Holes
+2024-06-16 00:41:30,220 - INFO - GolfClubScraper initialized with base_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000 and course_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000
+2024-06-16 00:41:30,220 - INFO - Scraping course data for all courses
+2024-06-16 00:41:31,691 - INFO - Getting course status for course: 18 Holes
+2024-06-16 00:41:38,652 - INFO - Exporting course data to Excel for course: 18 Holes
+2024-06-16 00:41:38,892 - INFO - Getting course status for course: 9 Holes
+2024-06-16 00:41:45,723 - INFO - Exporting course data to Excel for course: 9 Holes
+2024-06-16 00:48:30,002 - INFO - GolfClubScraper initialized with base_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000 and course_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000
+2024-06-16 00:48:30,002 - INFO - Scraping course data for all courses
+2024-06-16 00:48:31,530 - INFO - Getting course status for course: 18 Holes
+2024-06-16 00:48:38,438 - INFO - Exporting course data to Excel for course: 18 Holes
+2024-06-16 00:48:38,768 - INFO - Getting course status for course: 9 Holes
+2024-06-16 00:48:45,645 - INFO - Exporting course data to Excel for course: 9 Holes
+2024-06-19 12:38:22,083 - INFO - GolfClubScraper initialized with base_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000 and course_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000
+2024-06-19 12:38:22,090 - INFO - Scraping course data for all courses
+2024-06-19 12:38:23,775 - INFO - Getting course status for course: 18 Holes
+2024-06-19 12:38:31,839 - INFO - Exporting course data to Excel for course: 18 Holes
+2024-06-19 12:38:32,137 - INFO - Getting course status for course: 9 Holes
+2024-06-19 12:38:41,117 - INFO - Exporting course data to Excel for course: 9 Holes
+2024-06-20 06:16:33,394 - INFO - GolfClubScraper initialized with base_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000 and course_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000
+2024-06-20 06:16:33,394 - INFO - Scraping course data for all courses
+2024-06-20 06:16:34,693 - INFO - Getting course status for course: 18 Holes
+2024-06-20 06:16:41,632 - INFO - Exporting course data to Excel for course: 18 Holes
+2024-06-20 06:16:41,970 - INFO - Getting course status for course: 9 Holes
+2024-06-20 06:16:48,928 - INFO - Exporting course data to Excel for course: 9 Holes
+2024-06-22 10:11:21,107 - INFO - GolfClubScraper initialized with base_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000 and course_url: https://www.morningtongolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000
+2024-06-22 10:11:21,107 - INFO - Scraping course data for all courses
+2024-06-22 10:11:22,619 - INFO - Getting course status for course: 18 Holes
+2024-06-22 10:11:30,209 - INFO - Exporting course data to Excel for course: 18 Holes
+2024-06-22 10:11:30,529 - INFO - Getting course status for course: 9 Holes
+2024-06-22 10:11:38,184 - INFO - Exporting course data to Excel for course: 9 Holes

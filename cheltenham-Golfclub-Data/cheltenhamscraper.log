@@ -1,0 +1,4 @@
+2024-05-23 09:26:51,911 - INFO - cheltenhamGolfClubScraper initialized with base_url: https://cheltenhamgolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000 and course_url: https://cheltenhamgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000
+2024-05-23 09:26:51,912 - INFO - Scraping course data for all courses
+2024-05-23 09:26:55,185 - INFO - Getting course status for course: 9 Hole Green Fees
+2024-05-23 09:27:24,885 - INFO - Exporting course data to Excel for course: 9 Hole Green Fees
